@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="./files/passport size white background.jpg" alt="Profile Picture" class="profile-pic">
+            <h1>Welcome to My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I’m a web developer with a passion for creating beautiful and functional web applications.</p>
+        <button id="download-resume" class="resume-link">Download My Resume</button>
+        <a href="./files/manjunath Dwaram-resume.pdf" target="_blank" class="view-resume">View My Resume</a>
+    </section>
+    
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div id="project-list">
+            <!-- Projects will be dynamically inserted here -->
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+    <script src="portfolio.js"></script>
+</body>
+</html>
